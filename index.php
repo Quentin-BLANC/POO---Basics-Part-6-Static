@@ -1,8 +1,12 @@
 <?php
 
 require_once 'Bicycle.php';
+require_once 'Skateboard.php';
 require_once 'Car.php';
 require_once 'Truck.php';
+require_once 'PedestrianWay.php';
+require_once 'ResidentialWay.php';
+require_once 'MotorWay.php';
 
 $bicycle = new Bicycle('blue', 1);
 echo $bicycle->forward();
@@ -23,3 +27,4 @@ echo $truck->setLoading(60);
 echo $truck->setLoading(30);
 echo $truck->fullOrNot();
 var_dump($truck);
+

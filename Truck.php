@@ -49,7 +49,7 @@ class Truck extends Vehicle
 
     public function fullOrNot()
     {
-        if ($this->loading >= $this->storageCapacity) {
+        if ($this->loading == $this->storageCapacity) {
             return "full";
         } else {
             return "in filling";
